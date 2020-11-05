@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App viewable [here](https://young-garden-36500.herokuapp.com/)
 
-Things you may want to cover:
+From the home page you can view, edit, delete and create new users.
 
-* Ruby version
+Create new users at /users/new
+A name and an email are required to create user
 
-* System dependencies
+View, edit and destroy microposts at /microposts
 
-* Configuration
+New posts can be made at /microposts/new
+Content block is required with a max limit of 140 characters
+User ID number required (must be an existing ID #)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+View Users by their id at users/:id (where :id is the number of the user)
+This view will also display the user's first content post.
